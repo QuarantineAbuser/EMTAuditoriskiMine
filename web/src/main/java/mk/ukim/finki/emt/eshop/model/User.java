@@ -23,6 +23,9 @@ public class User implements UserDetails {
 
     private String surname;
 
+    @ManyToOne
+    private Discount discount;
+
     private boolean isAccountNonExpired = true;
     private boolean isAccountNonLocked = true;
     private boolean isCredentialsNonExpired = true;
