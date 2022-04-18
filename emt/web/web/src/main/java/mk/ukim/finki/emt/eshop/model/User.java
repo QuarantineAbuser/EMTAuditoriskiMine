@@ -1,6 +1,7 @@
 package mk.ukim.finki.emt.eshop.model;
 
 import lombok.Data;
+import mk.ukim.finki.emt.eshop.model.enumerations.Role;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
